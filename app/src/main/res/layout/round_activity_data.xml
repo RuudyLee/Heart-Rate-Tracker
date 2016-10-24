@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".DataActivity"
+    tools:deviceIds="wear_round">
+
+    <android.support.wearable.view.WearableListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:overScrollMode="never" />
+
+    <Button
+        android:id="@+id/b_returnToMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="10dp"
+        android:text="@string/return_to_menu"
+        android:onClick="returnToMenu"/>
+
+</android.support.wearable.view.BoxInsetLayout>
