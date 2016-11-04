@@ -10,4 +10,6 @@
     <string name="now_tracking">Now Tracking</string>
     <string name="stop_tracking">Stop Tracking</string>
     <string name="return_to_menu">Return to Menu</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="filename">data</string>
 </resources>

@@ -13,17 +13,16 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 public class DataActivity extends Activity {
 
-    private String filename = "data";
+    private static final String TAG = DataActivity.class.getName();
 
-    private TextView mTextView;
+    private String filename;
+
     private WearableListView mListView;
     private ArrayList<String> listItems;
 
@@ -40,6 +39,8 @@ public class DataActivity extends Activity {
                 mListView.setAdapter(new MyAdapter(DataActivity.this, listItems));
             }
         });
+
+        filename = this.getResources().getString(R.string.filename);
 
         getListItems();
     }
@@ -58,7 +59,6 @@ public class DataActivity extends Activity {
 
                 while ((receiveString = bufferedReader.readLine()) != null) {
                     listItems.add(receiveString);
-                    Log.d("HELLO", receiveString);
                 }
             }
         } catch (Exception e) {
