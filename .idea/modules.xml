@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Heart-Rate-Tracker.iml" filepath="$PROJECT_DIR$/Heart-Rate-Tracker.iml" />
       <module fileurl="file://$PROJECT_DIR$/HeartRateTracker.iml" filepath="$PROJECT_DIR$/HeartRateTracker.iml" />
       <module fileurl="file://$PROJECT_DIR$/mobile/mobile.iml" filepath="$PROJECT_DIR$/mobile/mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile/mobile.iml" filepath="$PROJECT_DIR$/mobile/mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wear/wear.iml" filepath="$PROJECT_DIR$/wear/wear.iml" />
       <module fileurl="file://$PROJECT_DIR$/wear/wear.iml" filepath="$PROJECT_DIR$/wear/wear.iml" />
     </modules>
   </component>
